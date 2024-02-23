@@ -1,3 +1,5 @@
+ <p align="center"><img width="385" alt="Screenshot 2024-02-23 at 11 39 39 AM" src="https://github.com/rakhyun-kim/Todo/assets/128246360/4c34ba2a-6a43-4d5d-93f8-ad18a0115f36"></p>
+
 This repository contains a simple Java-based command-line program to manage a to-do list. 
 The application can load tasks from a CSV file, display the tasks, add new tasks, delete existing tasks, and change the status of tasks. 
 Here are some of its features:
