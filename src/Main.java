@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -5,7 +6,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
 
         Scanner scanner = new Scanner(System.in); //Create Scanner to read input later
@@ -85,7 +85,7 @@ public class Main {
                 }
 
             } else if (todoList.equalsIgnoreCase("O") || (todoList.equalsIgnoreCase("Ongoing"))) {
-                System.out.println("This is current your finished checklist");
+                System.out.println("This is current your Ongoing checklist");
                 for (int i = 0; i < cl.getNumberOfOnGoingJobs(); i++) {
                     System.out.println(i + " " + cl.getOngoingJobs().get(i));
                 }
